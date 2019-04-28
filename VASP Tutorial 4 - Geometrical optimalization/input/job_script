@@ -1,8 +1,8 @@
 #!/bin/bash
 #PBS -N Test_Name  
 ##PBS -q batch
-#PBS -l nodes=4:ppn=28
-#PBS -l walltime=72:00:00
+#PBS -l nodes=1:ppn=28
+#PBS -l walltime=1:00:00
 
 export LD_BIND_NOW=1
 
