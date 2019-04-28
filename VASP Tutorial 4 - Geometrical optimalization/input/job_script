@@ -1,0 +1,20 @@
+#!/bin/bash
+#PBS -N Test_Name  
+##PBS -q batch
+#PBS -l nodes=4:ppn=28
+#PBS -l walltime=72:00:00
+
+export LD_BIND_NOW=1
+
+module purge
+module load leibniz/2016b
+module load leibniz/supported
+module load VASP/5.4.4-intel-2016b-vtst-173
+
+cd $PBS_O_WORKDIR
+
+echo "Job started:" /bin/date >> out 2>&1
+mpirun -genv LD_BIND_NOW=1 vasp_std >> out 2>&1
+echo "Job finished:" /bin/date >> out 2>&1
+
+grep Elapsed OUTCAR >> out`
