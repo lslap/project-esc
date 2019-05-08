@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -N Test_Name  
+#PBS -N Relax  
 ##PBS -q batch
 #PBS -l nodes=1:ppn=28
 #PBS -l walltime=1:00:00
