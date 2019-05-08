@@ -1,5 +1,0 @@
-K-points                        # The first line is treated as comment
- 0                              # Number of kpoints. 0 equals automatic generate scheme
-Monkhorst Pack                  # Monkhorst Pack scheme
- 11 11 11                       # Number of kpoints in each direction
- 0 0 0                          # Centered around the Gamma point

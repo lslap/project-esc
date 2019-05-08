@@ -1,8 +1,0 @@
-# General Setup
-  System = fcc
-  ENCUT = 240
-
-# Electronic Relaxation (SCF)
-  EDIFF = 1e-06
-  ISMEAR = 0
-  SIGMA = 0.05

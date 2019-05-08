@@ -1,8 +1,11 @@
 # General Setup
-  System = fcc
+  System = diamond Si
   ENCUT = 240
 
 # Electronic Relaxation (SCF)
   EDIFF = 1e-06
   ISMEAR = 0
   SIGMA = 0.05
+  
+# Band
+  ICHARG = 11

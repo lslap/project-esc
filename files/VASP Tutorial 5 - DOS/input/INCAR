@@ -1,5 +1,5 @@
 # General Setup
-  System = fcc
+  System = diamond Si
   ENCUT = 240
 
 # Electronic Relaxation (SCF)

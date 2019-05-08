@@ -5,13 +5,13 @@ import_eigenval();
 eigenvalues=ans(:,:,1);
 
 %zorg dat alles op Fermi niveau wordt geplaatst
-eigenvalues=eigenvalues1-ones(40,28)*5,79;
+eigenvalues=eigenvalues-ones(40,28)*5,79;
 
 %plot verticale lijnen
 fig=figure; 
 hax=axes; 
 hold on 
-plot(eigenvalues1);
+plot(eigenvalues);
 SP=10; %your point goes here 
 line([SP SP],get(hax,'YLim'),'Color',[1 0 0])
 hold on
